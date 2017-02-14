@@ -25,3 +25,5 @@ $('.contact-info#name').attr('value', 'your nemesis');
 $('.contact-info#email').attr('value', 'koalathebear@gmail.com');
 
 $('#submit').attr('value', "En Garde!");
+
+$('#right-image').clone().insertAfter('#submit');
