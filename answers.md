@@ -1,29 +1,51 @@
- $('img.profile-image').attr('src', "http://classroomclipart.com/images/gallery/Clipart/Animals/Alligator_Clipart/TN_alligator-910.jpg");
+ 1) $('img.profile-image').attr('src', "http://classroomclipart.com/images/gallery/Clipart/Animals/Alligator_Clipart/TN_alligator-910.jpg");
 
- $('#left-image img').attr('src', 'http://classroomclipart.com/images/gallery/Clipart/Animals/Alligator_Clipart/TN_alligator-910.jpg');
+ 2) $('#left-image img').attr('src', 'http://classroomclipart.com/images/gallery/Clipart/Animals/Alligator_Clipart/TN_alligator-910.jpg');
 
-$('h1').text('Amena Khatun');
+3) $('h1').text('Amena Khatun');
 
-$('#time-travel').text('Climb Trees');
+4) $('#time-travel').text('Climb Trees');
 
-$('body').css('background-color', 'purple');
+5) $('body').css('background-color', 'purple');
 
-$('.highlight').css('background-color', 'orange');
+6) $('.highlight').css('background-color', 'orange');
 
-$('h1').css('font-family', 'monospace');
+7) $('h1').css('font-family', 'monospace');
 
-$('.action-icon-bg').css('background-color', 'yellow')
+8) $('.action-icon-bg').css('background-color', 'yellow')
 
-$('#name').text('identify your self');
+9) $('#name').text('identify your self');
 
-$('.contact-info#name').attr('placeholder', 'idintify yourself');
+10) $('.contact-info#name').attr('placeholder', 'idintify yourself');
 
-$('#message').attr('placeholder', 'state your business');
+11) $('#message').attr('placeholder', 'state your business');
 
-$('.contact-info#name').attr('value', 'your nemesis');
+ $('.contact-info#name').attr('value', 'your nemesis');
 
-$('.contact-info#email').attr('value', 'koalathebear@gmail.com');
+12) $('.contact-info#email').attr('value', 'koalathebear@gmail.com');
 
-$('#submit').attr('value', "En Garde!");
+13) $('#submit').attr('value', "En Garde!");
 
-$('#right-image').clone().insertAfter('#submit');
+1) $('#right-image').clone().insertAfter('#submit');
+
+2) for(var i=0; i < 10; i++) {$('#right-image').clone().insertAfter('#submit')};
+
+3)
+var listItem = document.createElement('li');
+var leftSpan = document.createElement('span');
+var lastUpdated = document.createTextNode('Page last updated on');
+leftSpan.appendChild(lastUpdated);
+listItem.appendChild(leftSpan);
+
+$(listItem).attr('class', 'bio-info-item');
+var rightSpan = document.createElement('span');
+var d = new Date
+var date = document.createTextNode(d);
+rightSpan.appendChild(date);
+listItem.append(rightSpan)
+$('ul.bio-info').append(listItem)
+
+
+var d = new Date
+https://www.w3schools.com/jsref/jsref_obj_date.asp
+use this formula for dates/times in the future.
