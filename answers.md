@@ -5,12 +5,7 @@
 $('h1').text('Amena Khatun');
 
 $('#time-travel').text('Climb Trees');
+
+$('body').css('background-color', 'purple');
+
 $('.highlight').css('background-color', 'orange');
-
-
-
-
-
-      Change the colour of the body. (hint: use css())
-
-$('.item').css('background-color', 'yellow');
