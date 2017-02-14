@@ -19,3 +19,5 @@ $('#name').text('identify your self');
 $('.contact-info#name').attr('placeholder', 'idintify yourself');
 
 $('#message').attr('placeholder', 'state your business');
+
+$('.contact-info#name').attr('value', 'your nemesis');
