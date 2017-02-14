@@ -12,16 +12,8 @@ $('.highlight').css('background-color', 'orange');
 
 $('h1').css('font-family', 'monospace');
 
-$('action-icon-bg').css('background-color', 'yellow')
+$('.action-icon-bg').css('background-color', 'yellow')
 
+$('#name').text('identify your self');
 
-Find a way to select the round icons in the sidebar and then change their colour.
-
-
-<div class="action-container">
-  <div class="action-icon-container">
-    <a class="action-icon-bg" href="#">
-      <p class="action-icon"><i class="icon-download-alt"></i></p>
-    </a>
-    <p class="action-icon-text">Download CV</p>
-  </div>
+$('.contact-info#name').attr('placeholder', 'idintify yourself');
