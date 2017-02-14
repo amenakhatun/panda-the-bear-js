@@ -9,3 +9,5 @@ $('#time-travel').text('Climb Trees');
 $('body').css('background-color', 'purple');
 
 $('.highlight').css('background-color', 'orange');
+
+$('h1').css('font-family', 'monospace');
