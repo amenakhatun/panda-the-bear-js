@@ -17,3 +17,5 @@ $('.action-icon-bg').css('background-color', 'yellow')
 $('#name').text('identify your self');
 
 $('.contact-info#name').attr('placeholder', 'idintify yourself');
+
+$('#message').attr('placeholder', 'state your business');
